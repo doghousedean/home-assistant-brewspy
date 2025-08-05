@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "BrewSpy Setup",
+        "description": "Enter the API token for your BrewSpy device",
+        "data": {
+          "device_id": "Device ID (API Token)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to BrewSpy API",
+      "invalid_device": "Invalid device ID"
+    },
+    "abort": {
+      "already_configured": "This device is already set up"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update BrewSpy Settings",
+        "data": {
+          "device_id": "Device ID (API Token)"
+        }
+      }
+    }
+  }
+}

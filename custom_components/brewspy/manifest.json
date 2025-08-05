@@ -1,0 +1,10 @@
+{
+  "domain": "brewspy",
+  "name": "BrewSpy",
+  "version": "1.0.0",
+  "documentation": "https://github.com/doghousedean/brewspy",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@doghousedean"],
+  "config_flow": true
+}
