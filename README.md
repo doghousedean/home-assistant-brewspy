@@ -12,7 +12,7 @@ Easily connect your BrewSpy fermentation monitor to Home Assistant and keep an e
 
 1. Add this repository to HACS:
    - Go to **HACS > Integrations > ⋮ (top right) > Custom repositories**
-   - Add the GitHub repo URL (e.g. `https://github.com/YOUR_USERNAME/home-assistant-brewspy`) as type **Integration**
+   - Add the GitHub repo URL (e.g. `https://github.com/doghousedean/home-assistant-brewspy`) as type **Integration**
 2. Search for **BrewSpy** in HACS and install it.
 3. Restart Home Assistant.
 4. Add the integration via **Settings > Devices & Services > + Add Integration** and search for “BrewSpy”.
