@@ -1,11 +1,11 @@
 {
   "domain": "brewspy",
   "name": "BrewSpy",
-  "version": "1.0.2",
-  "documentation": "https://github.com/doghousedean/brewspy",
-  "requirements": [],
-  "dependencies": [],
   "codeowners": ["@doghousedean"],
   "config_flow": true,
-  "iot_class": "cloud_polling"
+  "dependencies": [],
+  "documentation": "https://github.com/doghousedean/brewspy",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "1.0.2"
 }
