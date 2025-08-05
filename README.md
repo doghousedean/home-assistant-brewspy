@@ -8,14 +8,17 @@ Easily connect your BrewSpy fermentation monitor to Home Assistant and keep an e
 
 ## 📦 Installation
 
-### Option 1: HACS (Recommended)
 
-1. Add this repository to HACS:
-   - Go to **HACS > Integrations > ⋮ (top right) > Custom repositories**
-   - Add the GitHub repo URL (e.g. `https://github.com/YOUR_USERNAME/home-assistant-brewspy`) as type **Integration**
-2. Search for **BrewSpy** in HACS and install it.
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=flat-square)](https://hacs.xyz/)
+
+Connect your Home Assistant to BrewSpy to monitor gravity, temperature, battery and more from your fermentation devices.
+
+### Installation (via HACS)
+1. Add this repo as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories) in HACS.
+2. Search for "BrewSpy" in HACS integrations and install.
 3. Restart Home Assistant.
-4. Add the integration via **Settings > Devices & Services > + Add Integration** and search for “BrewSpy”.
+4. Go to *Settings > Devices & Services > Add Integration* and search for **BrewSpy**.
+5. Enter your device token from [brewspy.app](https://brewspy.app/app).
 
 ### Option 2: Manual
 
@@ -26,6 +29,8 @@ Easily connect your BrewSpy fermentation monitor to Home Assistant and keep an e
 ---
 
 ## 🔧 Configuration
+
+Get your **Device ID Token** from the BrewSpy website and paste it when adding the integration.
 
 After installation:
 

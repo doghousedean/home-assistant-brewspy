@@ -1,0 +1,14 @@
+{
+  "name": "BrewSpy",
+  "content_in_root": false,
+  "domain": "brewspy",
+  "country": "GB",
+  "homeassistant": "2024.0.0",
+  "render_readme": true,
+  "iot_class": "cloud_polling",
+  "filename": "custom_components/brewspy/manifest.json",
+  "zip_release": true,
+  "persistent_directory": "custom_components/brewspy",
+  "config_flow": true,
+  "integration_type": "integration"
+}

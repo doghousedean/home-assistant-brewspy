@@ -1,6 +1,9 @@
 # BrewSpy Home Assistant Integration
 
-This integration connects your BrewSpy device(s) to Home Assistant via the BrewSpy API.
+Monitors fermentation data from BrewSpy in Home Assistant.  
+Displays gravity, temperature, battery status and more.
+
+Visit https://brewspy.app to get your device token.
 
 ## Features
 
